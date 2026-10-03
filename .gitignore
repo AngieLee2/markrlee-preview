@@ -1,0 +1,6 @@
+# Private/source documents — keep out of the public repo and live site
+*.doc
+*.docx
+*.indd
+Proposal*.pdf
+Mark Lee content documents/
