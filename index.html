@@ -1,59 +1,280 @@
 <!doctype html>
 <html lang="en">
-	<head>
-	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="robots" content="noindex, nofollow"> <!-- PREVIEW ONLY: remove at launch -->
-		<title>About Me</title>
-		<link href="reset.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="jquery-3.5.1.min.js"></script>
-		<script src="menu.js"></script>
-	</head>
-	<body>
-		<header>
-			<nav>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow"> <!-- PREVIEW ONLY: remove at launch -->
+	<title>Mark R. Lee | Antitrust, Corporate &amp; Securities Expert Witness</title>
+	<meta name="description" content="Mark R. Lee is a consulting attorney, expert witness, and commercial arbitrator in antitrust, corporations, business organizations, and securities regulation, and a law professor for 50 years.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+	<link href="site.css" rel="stylesheet">
+</head>
+<body>
+	<header class="site-header">
+		<div class="wrap">
+			<a class="brand" href="#top">Mark R. Lee<small>Attorney · Expert Witness</small></a>
+			<button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+			<nav class="site-nav" id="site-nav">
 				<ul>
-					<li><a href ="#">&#9776;</a></li>
-					<li><a href="index.html">About Me</a></li>
-					<li><a href="cases.html">Sample Engagements</a></li>
-					<li><a href="business.html">Recommendations</a></li>
-					<li><a href="resume.html">Resumé</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#clients">What Clients Say</a></li>
+					<li><a href="#litigation">Litigation Successes</a></li>
+					<li><a href="#transactional">Transactional Successes</a></li>
+					<li><a href="#retentions">Sample Retentions</a></li>
+					<li><a href="#publications">Publications</a></li>
+					<li><a class="btn" href="#contact">Contact Mark</a></li>
 				</ul>
 			</nav>
-			<h1>Mark R. Lee</h1>
-			<h2>Consulting Attorney</h2>
-			<h2>Expert Witness</h2>
-			<h2>Commercial Arbitrator</h2>
-			<h2>Professor of Law</h2>
-		</header>
-		<main>
-			<section>
-				<img src="images/marklee.jpg" alt="Headshot of Mark Lee"> <!--Photo provided by Mark R. Lee-->
-			</section>
-			<section>
-				<h3>Specialities</h3>
-				<p>A highly regarded legal consultant and expert witness, Professor Mark R. Lee is an expert in Antitrust, Business Organizations, Corporations, and Securities Regulation. He has provided services in a wide variety of matters in each of these areas of expertise. Here are some examples:</p>
-				<h5>Antitrust:</h5>
-					<p>Challenges to payments by large pharmaceutical companies to producers of generic drugs</p>
-					<p>Distributor terminations</p>
-					<p>Revocation of hospital privileges</p>
-				<h5>Business Organizations:</h5>
-					<p>Organizing and advising varied start-ups</p>
-					<p>Reorganizing an Illinois LLC law firm so that it could offer services in California</p>
-					<p>Partner’s rights in partnership property</p>
-				<h5>Corporations:</h5>
-					<p>Fiduciary duties</p>
-					<p>Hostile takeovers</p>
-					<p>Freeze-outs</p>
-				<h5>Securities Regulation:</h5>
-					<p>Private placements</p>
-					<p>Sale of restricted securities</p>	
-			</section>
-		</main>
-		<footer>
-			<p>©2020 Mark R. Lee, Attorney at Law, All Rights Reserved.</p>
-		</footer>
-	</body>
+		</div>
+	</header>
+
+	<main id="top">
+		<div class="hero">
+			<div class="wrap">
+				<div>
+					<p class="eyebrow">Consulting Attorney · Expert Witness · Arbitrator · Professor of Law</p>
+					<h1>Expert testimony in antitrust, corporate, and securities law.</h1>
+					<p>Mark R. Lee is a consulting attorney and testifying expert who has taught these subjects since 1976. A former Justice Department antitrust attorney, he helps litigation teams understand complex business-law questions and present them clearly to courts, juries, and arbitrators.</p>
+					<a class="btn btn-gold" href="#contact">Discuss a matter</a>
+					<a class="btn btn-line" href="mark-lee-resume-update.pdf">Download CV</a>
+				</div>
+				<div class="portrait"><img src="images/marklee.jpg" alt="Portrait of Mark R. Lee"></div>
+			</div>
+		</div>
+
+		<div class="creds">
+			<ul class="wrap">
+				<li><strong>Expert Witness for 13 Years</strong><span>Testified in 15 cases</span></li>
+				<li><strong>Law Professor for 50 Years</strong><span>Teaches at the University of San Diego</span><span>Taught at Georgetown and nine other U.S. law schools</span></li>
+				<li><strong>Commercial Arbitrator for 36 Years</strong><span>American Arbitration Association and Financial Industry Regulatory Authority</span></li>
+				<li><strong>2 Books</strong><span>Business Organizations and Antitrust</span></li>
+			</ul>
+		</div>
+
+		<section id="clients">
+			<div class="wrap">
+				<h2>What His Clients Say</h2>
+				<div class="rule"></div>
+				<div class="quotes">
+					<blockquote>
+						<p>“Mark greatly assisted me as an expert witness in a dispute related to the issuance and purchase of securities. He is very knowledgeable in the law and regulations related to such matters, quickly identified and smartly addressed the key issues, and was very responsive and a pleasure to work with. I would not hesitate to consult with Mark again.”</p>
+						<footer><strong>Phillip C. Samouris</strong>Partner · Higgs Fletcher &amp; Mack LLP · San Diego, CA</footer>
+					</blockquote>
+					<blockquote>
+						<p>“Our client, through our firm, retained Professor Mark Lee to perform a detailed and thorough analysis of equity issues that was required to make a full and thorough assessment of litigation risk and strategy. Professor Lee served as the ideal expert—he was efficient, professional and performed his work with the highest of integrity. When his analysis was complete, he provided a detailed report that our client used to make truly integral business decisions about the litigation at issue. Professor Lee made his knowledge accessible to all with whom he interacted—a skill that is often lost with experts performing complicated analyses.”</p>
+						<footer><strong>Christie Del Rey-Cone</strong>Cerasia &amp; Del Rey-Cone LLP · New York, NY</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<section class="alt" id="litigation">
+			<div class="wrap">
+				<h2>Litigation Successes</h2>
+				<div class="rule"></div>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Business Organizations</dd>
+						<dt>Engaged by</dt><dd>Counsel for the airport authority</dd>
+					</dl>
+					<div>
+						<h3>Napa County v. 3030 Airport Rd., LLC</h3>
+						<p>The lease for an airport hangar prohibited the leasing of space for airplanes owned by anyone except the tenant, a limited liability company. Nevertheless, the tenant leased space for airplanes owned by many others, claiming that since all of them became nominal “members” of the LLC, the hangar lease permitted the tenant to lease space to them. Counsel for the airport authority retained me to consult and to provide expert testimony on whether nominal “members” who lacked any equity interest or voting rights qualified as members.</p>
+						<p class="outcome">Outcome: The airport authority won possession, several hundred thousand dollars in damages, plus attorney’s fees.</p>
+					</div>
+				</article>
+
+				<!-- PLACEHOLDER: Nguyen case. Replace with Mark's write-up. -->
+				<p class="placeholder"><strong>Nguyen case goes here.</strong> Waiting for the case name, description, and outcome from Mark.</p>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Corporations</dd>
+						<dt>Engaged by</dt><dd>The company’s general counsel</dd>
+					</dl>
+					<div>
+						<h3>Non-Vested Stock Options</h3>
+						<p>A major pharmaceutical company terminated a high-level executive. Claiming that the termination resulted from national origin discrimination, the executive sought “front pay,” including the value of hoped-for, but-yet-to-be-vested stock options, options he asserted were worth millions. The company’s general counsel engaged me as an expert to rebut the executive’s claims. My report showed that, even if the discrimination could be proven, it was doubtful that the executive was entitled to “front pay,” and it was certain that any such front pay could not include the value of hoped-for, but-yet-to-be-vested stock options.</p>
+						<p class="outcome">Outcome: The executive settled for pennies on the dollar.</p>
+					</div>
+				</article>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Business Organizations</dd>
+						<dt>Engaged by</dt><dd>U.S. Attorney’s Office</dd>
+					</dl>
+					<div>
+						<h3>United States v. Miller</h3>
+						<p>A partner appropriated partnership assets for his own use. The United States charged him with multiple counts of criminal fraud. The partner’s principal defense was that he was entitled to use the assets. When the partner’s counsel notified the US Attorney’s office that he would offer the expert testimony of a high powered Los Angeles lawyer in support of the defense, the US Attorney’s office engaged me to consult and to provide expert rebuttal testimony. On the eve of trial, the partner’s counsel notified that he would not call the Los Angeles lawyer.</p>
+						<p class="outcome">Outcome: The jury convicted the partner on all counts.</p>
+					</div>
+				</article>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Securities Regulation</dd>
+						<dt>Engaged by</dt><dd>Counsel for the investor</dd>
+					</dl>
+					<div>
+						<h3>Securities Law Fraud Claim</h3>
+						<p>Based on what turned out to be material misrepresentations, a too-trusting investor paid hundreds of thousands of dollars for preferred stock which he never received. The fraudsters responded to the claim of misrepresentation with defenses purportedly rooted in securities law. The entire burden of advancing these defenses fell to the fraudsters’ expert witness, an experienced securities law attorney. Counsel for the investor engaged me as his expert witness. At the deposition of the fraudsters’ expert witness, my expert consulting services dismantled the purported securities law defenses.</p>
+						<p class="outcome">Outcome: On the eve of my deposition, the fraudsters offered to settle for 90 percent of what the investor sought, and the investor agreed to the settlement.</p>
+					</div>
+				</article>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Antitrust</dd>
+						<dt>Engaged by</dt><dd>Lawyers for the park district</dd>
+					</dl>
+					<div>
+						<h3>Defense of a Park District</h3>
+						<p>A park district found itself the target of a $10 million antitrust suit. Efforts to dispose of the suit short of trial proved futile. In fact, these efforts generated judicial opinions strongly suggesting that the park district had committed several antitrust offenses. A renowned antitrust professor advised the lawyers for the park district that it would unquestionably lose the upcoming trial on the merits. The lawyers, experienced litigators, but antitrust neophytes, summoned me to their office. They required (1) an intensive course in antitrust law and its application to their case; (2) a general strategy for trial; and (3) a plan for eleventh hour discovery and investigation that would give them the ammunition that this strategy demanded.</p>
+						<p class="outcome">Outcome: Judgment for the park district on all counts. The plaintiffs agreed to forego appeal in return for the park district’s agreement to forego antitrust claims against the plaintiffs.</p>
+					</div>
+				</article>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Antitrust</dd>
+						<dt>Engaged by</dt><dd>The physician’s lawyers</dd>
+					</dl>
+					<div>
+						<h3>Medical Malpractice Insurance</h3>
+						<p>A hospital chain revoked the admitted privileges of a physician in good standing because he had declined to purchase malpractice insurance from a carrier favored by the chain. The physician sued claiming that the malpractice carrier had violated Section Two of the Sherman Act and that it had conspired with the hospital chain in violation of Section One. The physician’s lawyers, having never litigated an antitrust claim, failed to establish much of a case by the time discovery had ended. The high-powered lawyers for the insurance carrier and the hospital chain moved not only for summary judgment but for Rule 11 sanctions against the lawyers. With two weeks remaining before the opposition to summary judgment was due, the lawyers engaged me to write it.</p>
+						<p class="outcome">Outcome: Summary judgment denied. Request for sanctions denied.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="transactional">
+			<div class="wrap">
+				<h2>Transactional Successes</h2>
+				<div class="rule"></div>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Corporations</dd>
+						<dt>Engaged by</dt><dd>The bank’s board of directors</dd>
+					</dl>
+					<div>
+						<h3>Advising re: Hostile Takeover</h3>
+						<p>The directors of a highly lucrative bank were confronted with unwelcome attentions of an expansion-minded bank holding company. The target bank’s chairman, who was about to retire, had solicited the holding company’s interest with the hope that a takeover would permit him to easily convert his bank stock into cash. Knowing that the other directors were disinclined to sell the bank, he secured an opinion from his personal lawyer that the board was obligated to let the shareholders know of the holding company’s approach. At the urging of the bank’s general counsel, the directors sought my help.</p>
+						<p>I furnished an opinion that not only contradicted the one given by the chairman’s lawyer, but suggested that the board might well be obliged to keep the holding company’s approach confidential due to its preliminary and highly conditional nature. I also advised the board about its response to the holding company’s approach, in particular how to honor its fiduciary duties without encouraging a takeover.</p>
+						<p class="outcome">Outcome: The chairman gave up his push for disclosure to the shareholders, he and the other directors reached an understanding about his bank stock, and the holding company turned its attention elsewhere.</p>
+					</div>
+				</article>
+
+				<article class="case">
+					<dl>
+						<dt>Practice area</dt><dd>Securities Regulation</dd>
+						<dt>Engaged by</dt><dd>Company management</dd>
+					</dl>
+					<div>
+						<h3>Private Placement to Fund Expansion</h3>
+						<p>The management of a publicly held company feared that its strategic expansion plan would founder on the securities laws. The plan called for the company to arrange financing for the lease and purchase of medical equipment and facilities via a private placement of securities. The company’s investment bankers advised, however, that to implement this plan, the company would have to register as a securities broker in a slew of jurisdictions. Such registration would have subjected the company to onerous, continuing regulation involving huge compliance costs and greatly increased exposure to litigation. The architect of the company’s plan—with the encouragement of the company’s general counsel—hurriedly requested my help.</p>
+						<p class="outcome">Outcome: I devised a method whereby management could pursue almost all its strategic goals without registering as a broker, thus saving the company substantial compliance costs and significantly reducing its potential exposure to litigation.</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="alt" id="retentions">
+			<div class="wrap">
+				<h2>Sample Retentions</h2>
+				<div class="rule"></div>
+				<p class="lede">Professor Lee has testified or consulted in connection with a wide variety of matters, including:</p>
+				<div class="areas">
+					<div class="area">
+						<h3>Corporations</h3>
+						<ul><li>Fiduciary duties</li><li>Hostile takeovers</li><li>Freeze-outs</li></ul>
+					</div>
+					<div class="area">
+						<h3>Business Organizations</h3>
+						<ul><li>Organizing and advising varied start-ups</li><li>Reorganizing an Illinois LLC law firm so that it could offer services in California</li><li>Partner’s rights in partnership property</li></ul>
+					</div>
+					<div class="area">
+						<h3>Securities Regulation</h3>
+						<ul><li>Private placements</li><li>Sale of restricted securities</li></ul>
+					</div>
+					<div class="area">
+						<h3>Antitrust</h3>
+						<ul><li>Challenges to payments by large pharmaceutical companies to producers of generic drugs</li><li>Distributor terminations</li><li>Revocation of hospital privileges</li></ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="publications">
+			<div class="wrap">
+				<h2>Publications</h2>
+				<div class="rule"></div>
+
+				<p class="pub-head">Books</p>
+				<div class="books">
+					<div class="book">
+						<h3>Organizing Corporate and Other Business Enterprises</h3>
+						<p>6th ed. (LEXIS, 2000, updated annually) (with L. Gross)</p>
+					</div>
+					<div class="book">
+						<h3>Antitrust Law and Local Government</h3>
+						<p>Greenwood Press, 1985</p>
+					</div>
+				</div>
+
+				<p class="pub-head">Articles</p>
+				<ul class="pubs">
+					<li><em>Oil Price Shocks, Antitrust and Politics: The Supply of Petroleum and the Demand for Regulation</em>, 15 S. Ill. U.L.J. 529 (1991).</li>
+					<li><em>Antitrust and Commercial Arbitration</em>, 62 St. John’s L. Rev. 1 (1987).</li>
+					<li><em>Local Government Practices and the Antitrust Merits</em>, 39 U. Miami L. Rev. 589 (1985). <a href="https://repository.law.miami.edu/umlr/vol39/iss4/2">Read online</a>
+						<span class="note">A corrected version appears at 1985 S. Ill. U.L.J. 455.</span></li>
+					<li><em>Antitrust: Market Definition, The Section Two Offenses and Literalism</em>, 57 Chi.-Kent L. Rev. 205 (1980). <a href="https://scholarship.kentlaw.iit.edu/cklawreview/vol57/iss1/3">Read online</a></li>
+					<li><em>Economic Regulation of Business: The Seventh Circuit’s Non-Economic Approach</em>, 56 Chi.-Kent L. Rev. 1 (1979). <a href="https://scholarship.kentlaw.iit.edu/cklawreview/vol56/iss1/9">Read online</a></li>
+					<li><em>Antitrust: A Collage of Vertical Territorial Restraints, Tying and Monopoly “Misuse,” Arbitrability, and the General Dynamics Defense</em>, 55 Chi.-Kent L. Rev. 1 (1979).</li>
+					<li><em>Right to Effective Counsel: A Judicial Heuristic</em>, 2 Am. J. Crim. L. 277 (1974).</li>
+				</ul>
+
+				<p class="pub-head">Additional Publications</p>
+				<ul class="pubs">
+					<li><em>Legalines: Corporations</em> (keyed to Choper, Coffee &amp; Gilson) (Harcourt Brace Jovanovich, 2008).</li>
+					<li><em>Legalines: Antitrust</em> (keyed to Handler, Blake, Pitofsky &amp; Wood) (Harcourt Brace Jovanovich, 2004).</li>
+					<li>Report of the Illinois Blue Ribbon Telecommunications Task Force (Illinois Commerce Commission, 1991) (co-author).</li>
+					<li><em>Ernst Rabel, Unprinted Lectures</em>, 50 Rabels Zeitschrift 251 (1986) (edited with Thieme).</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="cta" id="contact">
+			<div class="wrap">
+				<h2>Discuss your matter with Professor Lee</h2>
+				<p>Share your name, firm, the best way to reach you, and a short description of the matter.</p>
+				<a class="btn btn-gold" href="mailto:markrichardlee@gmail.com">Email Mark</a>
+				<a class="btn btn-line" href="mark-lee-resume-update.pdf">Download CV</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="wrap">
+			<span>© 2026 Mark R. Lee, Attorney at Law · San Diego, California</span>
+			<a href="mailto:markrichardlee@gmail.com">markrichardlee@gmail.com</a>
+		</div>
+	</footer>
+
+	<script>
+		var toggle = document.querySelector('.menu-toggle');
+		var nav = document.getElementById('site-nav');
+		toggle.addEventListener('click', function () {
+			var open = nav.classList.toggle('open');
+			toggle.setAttribute('aria-expanded', open);
+		});
+		nav.addEventListener('click', function (e) {
+			if (e.target.tagName === 'A') { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', false); }
+		});
+	</script>
+</body>
 </html>
