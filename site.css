@@ -78,7 +78,15 @@ h2 { font-family: var(--serif); font-weight: 400; font-size: 34px; color: var(--
 .case h3 { font-family: var(--serif); font-size: 24px; font-weight: 400; font-style: italic; color: var(--navy); margin-bottom: 14px; }
 .case p { margin-bottom: 14px; }
 .outcome { border-left: 3px solid var(--gold); padding: 8px 0 8px 18px; font-weight: 600; color: var(--navy); }
-.placeholder { background: #fff8e5; border: 2px dashed var(--gold); padding: 20px 24px; margin-bottom: 36px; color: #5c4400; }
+.pull-quote { background: var(--navy); color: #fff; padding: 36px 44px; margin-bottom: 48px; border-left: 4px solid var(--gold); }
+.pull-quote p { font-family: var(--serif); font-style: italic; font-size: 22px; line-height: 1.6; margin-bottom: 16px; }
+.pull-quote footer { font-size: 15px; color: var(--gold-light); }
+.pull-quote footer strong { color: #fff; }
+.subhead { font-family: var(--serif); font-weight: 400; font-size: 26px; color: var(--navy); margin: 24px 0 24px; padding-top: 36px; border-top: 1px solid var(--line); }
+.orgs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.org { background: var(--paper); border: 1px solid var(--line); border-top: 3px solid var(--gold); padding: 24px; }
+.org h4 { font-family: var(--serif); font-size: 17px; color: var(--navy); margin-bottom: 8px; }
+.org p { font-size: 16px; color: var(--muted); }
 
 /* Sample Retentions */
 .areas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
@@ -119,12 +127,15 @@ h2 { font-family: var(--serif); font-weight: 400; font-size: 34px; color: var(--
 	.site-nav li:last-child a { border: 2px solid var(--gold); margin-top: 16px; text-align: center; }
 }
 @media (max-width: 1000px) {
+	.orgs { grid-template-columns: repeat(2, 1fr); }
 	.creds ul { grid-template-columns: repeat(2, 1fr); }
 	.creds li:nth-child(3) { border-left: 0; }
 	.creds li:nth-child(n+3) { border-top: 1px solid var(--line); }
 }
 @media (max-width: 760px) {
-	.hero .wrap, .case, .quotes, .areas, .books { grid-template-columns: 1fr; }
+	.hero .wrap, .case, .quotes, .areas, .books, .orgs { grid-template-columns: 1fr; }
+	.pull-quote { padding: 26px 24px; }
+	.pull-quote p { font-size: 19px; }
 	.hero .wrap { gap: 32px; }
 	.case { gap: 16px; }
 	.hero h1 { font-size: 34px; }
