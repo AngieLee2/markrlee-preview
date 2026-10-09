@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<title>Page Not Found | Mark R. Lee</title>
+	<!-- GitHub Pages serves this file for any missing URL, at any depth, so styles are inline. -->
+	<style>
+		* { box-sizing: border-box; margin: 0; padding: 0; }
+		body { min-height: 100vh; display: flex; flex-direction: column; font-family: "Segoe UI", Arial, sans-serif; color: #22272e; background: #faf7f2; }
+		header { background: #1c2b3a; color: #fff; padding: 20px 24px; border-bottom: 4px solid #86692c; }
+		header strong { display: block; font-family: Georgia, serif; font-weight: 400; font-size: 22px; }
+		header span { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #c9b88f; }
+		main { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; padding: 64px 24px; }
+		h1 { font-family: Georgia, serif; font-weight: 400; font-size: 34px; color: #1c2b3a; margin-bottom: 14px; }
+		p { color: #5b6470; max-width: 30em; margin: 0 auto 28px; line-height: 1.6; }
+		a.btn { display: inline-block; background: #86692c; color: #fff; text-decoration: none; font-weight: 600; padding: 12px 24px; border-radius: 2px; }
+		a.btn:hover { background: #6f5724; }
+	</style>
+</head>
+<body>
+	<header><strong>Mark R. Lee</strong><span>Expert Witness and Consulting Attorney</span></header>
+	<main>
+		<div>
+			<h1>This page could not be found</h1>
+			<p>The page you were looking for may have moved since the site was redesigned. Everything about Professor Lee’s practice is on the homepage.</p>
+			<a class="btn" id="home" href="/">Go to the homepage</a>
+		</div>
+	</main>
+	<script>
+		// On the temporary preview address the site lives under /markrlee-preview/ rather than the domain root.
+		if (location.pathname.indexOf('/markrlee-preview/') === 0) document.getElementById('home').href = '/markrlee-preview/';
+	</script>
+</body>
+</html>
