@@ -4,8 +4,7 @@ The website for Mark R. Lee, expert witness and consulting attorney: **markrlee.
 
 It is a single page (`index.html`) styled by one stylesheet (`site.css`). There is no build step and nothing to install. Edit a file, push it, and the site updates.
 
-- Preview address: https://angielee2.github.io/markrlee-preview/
-- Live address (after launch): https://markrlee.com/
+- Live address: https://markrlee.com/ (the old preview address, https://angielee2.github.io/markrlee-preview/, redirects here)
 
 ## Making a change
 
@@ -60,13 +59,14 @@ Each section starts with a `<section id="...">` line. Search for the id to jump 
 ## Launch checklist
 
 - [x] Remove the homepage's no-index tag
-- [ ] LittleJon5 removes `markrlee.com` from **LittleJon5/MarkLeeWebsite → Settings → Pages**, and sets Source to **None**
-- [ ] In **AngieLee2/markrlee-preview → Settings → Pages**, set Custom domain to `markrlee.com` and Save (this adds a `CNAME` file; pull it before the next local change)
-- [ ] Once the certificate is issued, tick **Enforce HTTPS**
-- [ ] Confirm every section loads at https://markrlee.com/
+- [x] LittleJon5 removes `markrlee.com` from **LittleJon5/MarkLeeWebsite → Settings → Pages**
+- [ ] LittleJon5 sets **Source** to **None** on the same screen (until then, Mark's private documents remain downloadable at littlejon5.github.io/MarkLeeWebsite/)
+- [x] In **AngieLee2/markrlee-preview → Settings → Pages**, set Custom domain to `markrlee.com` and Save (this adds a `CNAME` file; pull it before the next local change)
+- [x] Once the certificate is issued, tick **Enforce HTTPS**
+- [x] Confirm every section loads at https://markrlee.com/ (live since 2026-10-12)
 
 ### After getting the domain registrar login
-- [ ] At the registrar, point `www` to `angielee2.github.io` (it currently points to `littlejon5.github.io`)
+- [ ] At the registrar, point `www` to `angielee2.github.io` (it still points to `littlejon5.github.io`; www works today, but this keeps it from depending on his account)
 - [ ] Verify the domain in GitHub (account Settings → Pages → Add a verified domain)
 - [ ] In `index.html`, change `og:url` and `og:image` from the preview address to `https://markrlee.com/`, and add `<link rel="canonical" href="https://markrlee.com/">`
 - [ ] Ask LittleJon5 to delete **LittleJon5/MarkLeeWebsite** (its history contains Mark's private documents)
