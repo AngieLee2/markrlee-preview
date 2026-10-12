@@ -17,6 +17,51 @@
 	<meta property="og:image:height" content="630">
 	<meta property="og:image:alt" content="Mark R. Lee, Expert Witness and Consulting Attorney">
 	<meta name="twitter:card" content="summary_large_image">
+	<!-- Structured data: tells search engines who Mark is and what he does (not shown on the page) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Person",
+				"@id": "https://markrlee.com/#mark",
+				"name": "Mark R. Lee",
+				"honorificSuffix": "J.D.",
+				"jobTitle": ["Expert Witness", "Consulting Attorney", "Commercial Arbitrator", "Professor of Law"],
+				"description": "Expert witness and consulting attorney in corporate law, business organizations, securities regulation, and antitrust; law professor for 50 years; commercial arbitrator with the American Arbitration Association and FINRA.",
+				"url": "https://markrlee.com/",
+				"image": "https://markrlee.com/images/marklee.jpg",
+				"email": "mailto:markrichardlee@gmail.com",
+				"affiliation": { "@type": "CollegeOrUniversity", "name": "University of San Diego School of Law" },
+				"alumniOf": [
+					{ "@type": "CollegeOrUniversity", "name": "University of Texas School of Law" },
+					{ "@type": "CollegeOrUniversity", "name": "Yale University" }
+				],
+				"award": ["Fulbright Senior Scholar Award", "Belgian National Fund for Scientific Research Award"],
+				"knowsAbout": ["Corporate law", "Business organizations", "Limited liability companies", "Partnership law", "Securities regulation", "Antitrust", "Fiduciary duties", "Commercial arbitration", "Law and economics"]
+			},
+			{
+				"@type": "ProfessionalService",
+				"@id": "https://markrlee.com/#service",
+				"name": "Mark R. Lee, Expert Witness and Consulting Attorney",
+				"url": "https://markrlee.com/",
+				"image": "https://markrlee.com/images/share-card.jpg",
+				"email": "mailto:markrichardlee@gmail.com",
+				"founder": { "@id": "https://markrlee.com/#mark" },
+				"areaServed": { "@type": "Country", "name": "United States" },
+				"serviceType": ["Expert witness testimony", "Litigation consulting", "Commercial arbitration"],
+				"knowsAbout": ["Corporate law", "Business organizations", "Securities regulation", "Antitrust"]
+			},
+			{
+				"@type": "WebSite",
+				"@id": "https://markrlee.com/#website",
+				"url": "https://markrlee.com/",
+				"name": "Mark R. Lee",
+				"about": { "@id": "https://markrlee.com/#mark" }
+			}
+		]
+	}
+	</script>
 	<link rel="icon" href="favicon.svg" type="image/svg+xml">
 	<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
