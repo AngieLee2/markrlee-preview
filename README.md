@@ -68,7 +68,7 @@ Each section starts with a `<section id="...">` line. Search for the id to jump 
 ### After getting the domain registrar login
 - [ ] At the registrar, point `www` to `angielee2.github.io` (it still points to `littlejon5.github.io`; www works today, but this keeps it from depending on his account)
 - [ ] Verify the domain in GitHub (account Settings → Pages → Add a verified domain)
-- [ ] In `index.html`, change `og:url` and `og:image` from the preview address to `https://markrlee.com/`, and add `<link rel="canonical" href="https://markrlee.com/">`
+- [x] In `index.html`, change `og:url` and `og:image` from the preview address to `https://markrlee.com/`, and add `<link rel="canonical" href="https://markrlee.com/">`
 - [ ] Ask LittleJon5 to delete **LittleJon5/MarkLeeWebsite** (its history contains Mark's private documents)
 - [ ] Turn on two-factor authentication for GitHub and the registrar
 - [ ] Add the site to Google Search Console and submit `https://markrlee.com/sitemap.xml`
