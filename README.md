@@ -55,6 +55,7 @@ Each section starts with a `<section id="...">` line. Search for the id to jump 
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser-tab and phone home-screen icons |
 | `images/share-card.jpg` | Image shown when the link is shared by email, text, or LinkedIn |
 | `robots.txt`, `sitemap.xml` | Help search engines find the site |
+| `google42dbe29cdcb52858.html` | Proves ownership to Google Search Console. **Do not delete**, or Search Console access is lost |
 
 ## Launch checklist
 
@@ -71,5 +72,5 @@ Each section starts with a `<section id="...">` line. Search for the id to jump 
 - [x] In `index.html`, change `og:url` and `og:image` from the preview address to `https://markrlee.com/`, and add `<link rel="canonical" href="https://markrlee.com/">`
 - [ ] Ask LittleJon5 to delete **LittleJon5/MarkLeeWebsite** (its history contains Mark's private documents)
 - [ ] Turn on two-factor authentication for GitHub and the registrar
-- [ ] Add the site to Google Search Console and submit `https://markrlee.com/sitemap.xml`
+- [x] Add the site to Google Search Console (URL-prefix property, HTML-file verification) and submit `sitemap.xml`
 - [ ] Optional: rename this repo from `markrlee-preview` to something permanent
