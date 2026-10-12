@@ -55,6 +55,7 @@ Each section starts with a `<section id="...">` line. Search for the id to jump 
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser-tab and phone home-screen icons |
 | `images/share-card.jpg` | Image shown when the link is shared by email, text, or LinkedIn |
 | `robots.txt`, `sitemap.xml` | Help search engines find the site |
+| Cloudflare Web Analytics snippet | Last line before `</body>` in `index.html` and `404.html`. Counts visitors without cookies. View stats at dash.cloudflare.com → Web Analytics → markrlee.com |
 | `google42dbe29cdcb52858.html` | Proves ownership to Google Search Console. **Do not delete**, or Search Console access is lost |
 
 ## Launch checklist
